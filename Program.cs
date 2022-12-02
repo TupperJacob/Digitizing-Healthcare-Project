@@ -12,7 +12,7 @@ namespace Healthcare_UI
         /// <summary>
         ///  The main entry point for the application.
         /// </summary>
-
+        //Jacob was here 
         public static Monitor monitor = new Monitor(); //the main.monitor as mentioned in notes
 
         [STAThread]
