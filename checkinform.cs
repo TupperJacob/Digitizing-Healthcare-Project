@@ -56,10 +56,5 @@ namespace Healthcare_UI
             Form x = new optionsmenu();
             Program.monitor.request_window(x, true); //monitor will handle if logged on or not and bring appropriate window up
         }
-
-        private void checkinform_button_submit_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

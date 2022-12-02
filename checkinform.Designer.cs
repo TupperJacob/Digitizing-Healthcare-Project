@@ -373,7 +373,6 @@ namespace Healthcare_UI
             this.checkinform_button_submit.TabIndex = 33;
             this.checkinform_button_submit.Text = "Submit";
             this.checkinform_button_submit.UseVisualStyleBackColor = true;
-            this.checkinform_button_submit.Click += new System.EventHandler(this.checkinform_button_submit_Click);
             // 
             // checkinform_button_goback
             // 

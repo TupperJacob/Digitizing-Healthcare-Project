@@ -40,11 +40,11 @@ namespace Healthcare_UI
             this.searchdocument_label_keyword2 = new System.Windows.Forms.Label();
             this.searchdocument_button_search = new System.Windows.Forms.Button();
             this.searchdocument_previousewindow = new System.Windows.Forms.Button();
+            this.searchdocument_listbox_results = new System.Windows.Forms.ListBox();
             this.searchdocument_label_results = new System.Windows.Forms.Label();
             this.searchdocument_button_view = new System.Windows.Forms.Button();
             this.searchdocument_button_download = new System.Windows.Forms.Button();
             this.searchdocument_button_delete = new System.Windows.Forms.Button();
-            this.searchdocument_textbox_results = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // searchdocument_label_title
@@ -144,6 +144,15 @@ namespace Healthcare_UI
             this.searchdocument_previousewindow.UseVisualStyleBackColor = true;
             this.searchdocument_previousewindow.Click += new System.EventHandler(this.searchdocument_previousewindow_Click);
             // 
+            // searchdocument_listbox_results
+            // 
+            this.searchdocument_listbox_results.FormattingEnabled = true;
+            this.searchdocument_listbox_results.ItemHeight = 15;
+            this.searchdocument_listbox_results.Location = new System.Drawing.Point(432, 204);
+            this.searchdocument_listbox_results.Name = "searchdocument_listbox_results";
+            this.searchdocument_listbox_results.Size = new System.Drawing.Size(295, 169);
+            this.searchdocument_listbox_results.TabIndex = 11;
+            // 
             // searchdocument_label_results
             // 
             this.searchdocument_label_results.AutoSize = true;
@@ -181,25 +190,17 @@ namespace Healthcare_UI
             this.searchdocument_button_delete.Text = "Delete";
             this.searchdocument_button_delete.UseVisualStyleBackColor = true;
             // 
-            // searchdocument_textbox_results
-            // 
-            this.searchdocument_textbox_results.Location = new System.Drawing.Point(433, 204);
-            this.searchdocument_textbox_results.Multiline = true;
-            this.searchdocument_textbox_results.Name = "searchdocument_textbox_results";
-            this.searchdocument_textbox_results.Size = new System.Drawing.Size(295, 165);
-            this.searchdocument_textbox_results.TabIndex = 16;
-            // 
             // searchdocument
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.searchdocument_textbox_results);
             this.Controls.Add(this.searchdocument_button_delete);
             this.Controls.Add(this.searchdocument_button_download);
             this.Controls.Add(this.searchdocument_button_view);
             this.Controls.Add(this.searchdocument_label_results);
+            this.Controls.Add(this.searchdocument_listbox_results);
             this.Controls.Add(this.searchdocument_previousewindow);
             this.Controls.Add(this.searchdocument_button_search);
             this.Controls.Add(this.searchdocument_textbox_keyword2);
@@ -233,10 +234,10 @@ namespace Healthcare_UI
         private System.Windows.Forms.Label searchdocument_label_keyword2;
         private System.Windows.Forms.Button searchdocument_button_search;
         private System.Windows.Forms.Button searchdocument_previousewindow;
+        private System.Windows.Forms.ListBox searchdocument_listbox_results;
         private System.Windows.Forms.Label searchdocument_label_results;
         private System.Windows.Forms.Button searchdocument_button_view;
         private System.Windows.Forms.Button searchdocument_button_download;
         private System.Windows.Forms.Button searchdocument_button_delete;
-        private System.Windows.Forms.TextBox searchdocument_textbox_results;
     }
 }

@@ -17,9 +17,6 @@ namespace Healthcare_UI
 
         private void employeelogin_button_goback_Click(object sender, EventArgs e)
         {
-            //clear the textbox
-            this.employeelogin_textbox_username.Text = "";
-            this.employeelogin_textbox_password.Text = "";
             this.Hide();
             Form x = new main(false);
             Program.monitor.request_window(x, true);

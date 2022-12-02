@@ -14,8 +14,8 @@ namespace Healthcare_UI
  * Made by Jacob D Tupper
  * Began 11-29-22
  * 
+ * Test of the push Jacob Tupper 12/1/22
  * 
- *This is a test to see if git works! 703PM
  * 
  * Notes Are below:
  * 
@@ -26,8 +26,7 @@ namespace Healthcare_UI
  * 2. The monitor
  * 3. Issues with .NET 3.1
  * 
- * I. Fix Typos
- * II. Remove fucking provanity from my fucking application, fucking fucky cunt
+ * I. Remove fucking provanity from my fucking application, fucking fucky cunt
  * 
  * 
  * 
