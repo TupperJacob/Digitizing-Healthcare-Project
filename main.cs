@@ -14,11 +14,7 @@ namespace Healthcare_UI
  * Made by Jacob D Tupper
  * Began 11-29-22
  * 
- * Test of the push Jacob Tupper 12/1/22
- * Test from remote computer
- * Test 3
- * Notes Are below:
- * 
+ * This is a test
  * 
  * Contents:
  * I. To do's
