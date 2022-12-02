@@ -17,9 +17,7 @@ namespace Healthcare_UI
 
         private void optionsmenu_button_logout_Click(object sender, EventArgs e)
         {
-
-
-            //pass information to class removing account information, effectively resetting the class.
+            //pass information to monitor to remove access to account
             Program.monitor.loggout();
             this.Hide();
             Form x = new main(false);

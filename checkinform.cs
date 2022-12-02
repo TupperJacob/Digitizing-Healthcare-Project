@@ -23,7 +23,7 @@ namespace Healthcare_UI
 
         private void checkinform_button_goback_Click(object sender, EventArgs e)
         {
-            //Remove all content before leaving
+            //Clear fields before leaving form
             this.checkinform_radial_option1.Checked = false;
             this.checkinform_radial_option2.Checked = false;
             this.checkinform_radial_option3.Checked = false;
@@ -48,13 +48,9 @@ namespace Healthcare_UI
             this.checkinform_textbox_suit_room_number.Text = "";
             this.checkinform_textbox_pobox.Text = "";
 
-
-
-
-
             this.Hide();
             Form x = new optionsmenu();
-            Program.monitor.request_window(x, true); //monitor will handle if logged on or not and bring appropriate window up
+            Program.monitor.request_window(x, true); //monitor will handle what form to show
         }
     }
 }

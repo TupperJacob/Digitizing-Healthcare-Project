@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Healthcare_UI
 {
-/*
+/*TODO: Fix thsi comment/documentation after project is over
  * Made by Jacob D Tupper
  * Began 11-29-22
  * 
@@ -21,10 +21,8 @@ namespace Healthcare_UI
  * 1. The different win Forms
  * 2. The monitor
  * 3. Issues with .NET 3.1
- * 
- * I. Remove fucking provanity from my fucking application, fucking fucky cunt
- * 
- * 
+ * I. fix typos
+ * II. Remove fucking provanity from my fucking application, fucking fucky cunt
  * 
  * 1. The different win forms
  * 
@@ -57,8 +55,6 @@ namespace Healthcare_UI
             if (!alreadyrunning)
             InitializeComponent();
         }
-       
-        //public static Monitor monitor = new Monitor(main); //the main.monitor as mentioned in notes
 
         private void window_button_checkin_Click(object sender, EventArgs e)
         {

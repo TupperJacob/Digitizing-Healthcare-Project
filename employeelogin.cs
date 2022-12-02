@@ -20,17 +20,11 @@ namespace Healthcare_UI
             this.Hide();
             Form x = new main(false);
             Program.monitor.request_window(x, true);
-            //window_welcome.form_welcome.Show();
         }
 
         private void employee_button_login_Click(object sender, EventArgs e)
         {
-            //Steps:
-            //1: Parse Username into byte array
-            //2: Parse Password into byte array
-            //3: Hash the password locally
-            //4: Pass into Program.monitor.passinfo()
-
+            //Password needs to be hashed before passing to Program.monitor.passinfo
             byte[] username = Encoding.UTF8.GetBytes(this.employeelogin_textbox_username.Text);
             byte[] password = Encoding.UTF8.GetBytes(this.employeelogin_textbox_password.Text);
 
@@ -38,11 +32,10 @@ namespace Healthcare_UI
 
             //end of hash
 
-            //pass info
-
+            //passinfo has return type of bool to quickly determin if username and hashed password matches with stored hash in database
             if(Program.monitor.passinfo(username, password))
             {
-                //remove text
+                //Clear fields before leaving form
                 this.employeelogin_textbox_password.Text = "";
                 this.employeelogin_textbox_username.Text = "";
                 this.Hide();
@@ -50,9 +43,7 @@ namespace Healthcare_UI
                 Program.monitor.request_window(x, true);
             }
             else { MessageBox.Show("Incorrect Username or Password"); }
-
-
-            
+            //TODO: Make form itself show content of this messagebox instead of using a messagebox
         }
     }
 }

@@ -119,11 +119,5 @@ namespace Healthcare_UI
             logged_on = false;
             return true;
         }
-
-
-
-
-
-
     }//end of class
 }//end of namespace
